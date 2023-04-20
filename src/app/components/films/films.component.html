@@ -1,0 +1,6 @@
+<h3>{{films.section}}</h3>
+
+<ul>
+    {{console.log(films)}}
+    <li *ngFor="let film of films.films"><img src="{{film.src}}" alt="{{film.alt}}"></li>
+</ul>
